@@ -29,8 +29,8 @@ O projeto do carrinho de compras está sem API.
 Para configurar a API, basta ir até a pasta services e abrir o arquivo **api.js**.
 Dentro do arquivo basta pegar o **LINK da API** desejada e colocar na variavel correspondente.
 
-lowerPriceApi : API com valor abaixo de R$ 10,00.
+**lowerPriceApi**: API com valor abaixo de R$ 10,00.
 
-highPriceApi: API com valor acima de R$ 10,00.
+**highPriceApi**: API com valor acima de R$ 10,00.
 
-Após passar a API desejada, colocar a variável da API que for usar na baseURL:
+Após passar a API desejada, colocar a variável da API que for usar na **baseURL:**
