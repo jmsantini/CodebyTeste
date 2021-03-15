@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const lowerPriceApi = "Colocar o link da API AQUI com o valor abaixo de 10"
-const highPriceApi = "Colocar o link da API AQUI com o valor acima de 10"
+const lowerPriceApi = "Colocar o link da API AQUI com o valor de compra ABAIXO de 10"
+const highPriceApi = "Colocar o link da API AQUI com o valor de compra ACIMA de 10"
 
 const Api = axios.create({
     baseURL: highPriceApi

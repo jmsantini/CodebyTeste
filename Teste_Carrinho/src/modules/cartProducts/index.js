@@ -23,20 +23,29 @@ function Cart() {
         getProducts()
     }, [])
 
+    let renderProductList 
+    
+    if(products.length === 0) {
+        renderProductList = (<h1>Carregando Carrinho ...</h1>)
+    } else {
+        renderProductList = (
+            products.map(product => (
+                <ProductList
+                    key={product.uniqueId}
+                    productImage={product.imageUrl}
+                    alt={product.detailUrl}
+                    productName={product.name}
+                    costPrice={`R$ ${(product.price * 0.01).toFixed(2)}`}
+                    salePrice={`R$ ${(product.sellingPrice * 0.01).toFixed(2)}`}
+                />
+    
+            ))
+        );
 
-    const renderProductList = (
-        products.map(product => (
-            <ProductList
-                key={product.uniqueId}
-                productImage={product.imageUrl}
-                alt={product.detailUrl}
-                productName={product.name}
-                costPrice={`R$ ${(product.price * 0.01).toFixed(2)}`}
-                salePrice={`R$ ${(product.sellingPrice * 0.01).toFixed(2)}`}
-            />
+    }
 
-        ))
-    );
+
+    
 
     function getTotal(total, items) {
         return total + items.sellingPrice
