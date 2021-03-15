@@ -1,0 +1,112 @@
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 216, 229);
+    height: 100;
+    width: 100%;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cart-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 45px;
+    box-shadow: 3px 7px 7px rgb(150, 155, 163);
+    margin: 5%;
+}
+
+.cart-products-header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(200, 198, 198);
+}
+
+.cart-products-detail {
+    min-height: 500px;
+    max-height: 650px;
+    width: 100%;
+    border-bottom: 1px solid rgb(200, 198, 198);
+    overflow-x: hidden;
+}
+
+.cart .cart-value {
+    min-height: 67px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cart .cart-value>div {
+    min-height: 67px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.cart-value>div>span:first-child {
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.cart-value>div>span:last-child {
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.cart-products-footer {
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(200, 198, 198);
+}
+
+.free-shipping {
+    width: auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 700;
+    background-color: rgb(200, 255, 160);
+    color: rgb(33, 116, 0);
+    margin: 0 0 20px 0;
+}
+
+.purchase-button {
+    width: 90%;
+    padding: 0 10px;
+    height: 65px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 116, 242);
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+.purchase-button:hover {
+    cursor: pointer;
+    color: rgb(60, 116, 242);
+    background-color: rgb(255, 255, 255);
+}
