@@ -11,7 +11,7 @@ Temos 3 projetos
 
 -Teste Layout: Recriar o layout pedido usando Flex-Box, HTML e CSS.
 
--Teste Carrinho: Criar um carrinho de produtos consumindo uma API. E Recriando o layout pedido.
+-Teste Carrinho: Criar um carrinho de produtos consumindo uma API e recriando o layout pedido.
 
 ## Stacks
 No projeto foi utilizado: HTML, CSS, JavaScript, ReactJS, Hooks e Axios.
