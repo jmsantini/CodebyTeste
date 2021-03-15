@@ -10,6 +10,7 @@ Temos 3 projetos
 3- Testes Carrinho de Compras (Pleno)
 
 -Teste Layout: Recriar o layout pedido usando Flex-Box, HTML e CSS.
+
 -Teste Carrinho: Criar um carrinho de produtos consumindo uma API. E Recriando o layout pedido.
 
 ## Stacks
