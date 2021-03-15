@@ -26,7 +26,7 @@ Feito o clone, ir até a pasta do projeto que deseja abrir.
 
 ## Observação
 O projeto do carrinho de compras está sem API.
-Para configurar a API, basta ir até a pasta services e abrir o arquivo **api.js**
+Para configurar a API, basta ir até a pasta services e abrir o arquivo **api.js**.
 Dentro do arquivo basta pegar o **LINK da API** desejada e colocar na variavel correspondente.
 
 lowerPriceApi : API com valor abaixo de R$ 10,00.
