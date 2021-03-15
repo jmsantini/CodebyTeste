@@ -4,7 +4,9 @@
 Temos 3 projetos.
 
 1- Teste de logica
+
 2- Testes Layout (Junior)
+
 3- Testes Carrinho de Compras (Pleno)
 
 -Teste Layout: Recriar o layout pedido usando Flex-Box, HTML e CSS.
