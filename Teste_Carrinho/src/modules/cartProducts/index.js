@@ -44,9 +44,6 @@ function Cart() {
 
     }
 
-
-    
-
     function getTotal(total, items) {
         return total + items.sellingPrice
     };
@@ -72,7 +69,6 @@ function Cart() {
             <h3 className="free-shipping">Parabéns, sua compra tem frete grátis!!</h3>
         )
     }
-
 
     return (
         <div className="cart">
